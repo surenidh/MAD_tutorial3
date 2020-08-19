@@ -37,15 +37,15 @@ int n1,n2;
     }
 
     public void add(View view){
-        lblsum.setText(n1+ n2);
+        lblsum.setText(num1+" + "num2+" =" +(n1+ n2));
     }
     public void minus(View view){
-        lblsum.setText(n2 - n1);
+        lblsum.setText(num1+" - "num2+" =" +(n1- n2));
     }
     public void multiply(View view){
-        lblsum.setText(n1 * n2);
+        lblsum.setText(num1+" * "num2+" =" +(n1* n2));
     }
     public void divide(View view){
-        lblsum.setText(n1 / n2);
+        lblsum.setText(num1+" / "num2+" =" +(n1/ n2));
     }
 }
